@@ -1,0 +1,402 @@
+[
+  {
+    "id": "27",
+    "topic": "Insurers",
+    "question": "An insurer is owned by investors who buy shares. What type is it?",
+    "options": [
+      "Mutual",
+      "Fraternal",
+      "Stock",
+      "Government"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Policyholders own mutuals.",
+      "Fraternals use lodges.",
+      "Shareholders own stock insurers.",
+      "Government operates public programs."
+    ],
+    "memory": "Stock = stockholders.",
+    "kind": "Practice"
+  },
+  {
+    "id": "28",
+    "topic": "Insurers",
+    "question": "Who owns a mutual insurer?",
+    "options": [
+      "Outside investors",
+      "Government",
+      "Attorney-in-fact",
+      "Policyholders"
+    ],
+    "correct": 3,
+    "explanations": [
+      "Investors own stock insurers.",
+      "Government runs public programs.",
+      "Attorney-in-fact manages reciprocals.",
+      "Policyholders own mutuals."
+    ],
+    "memory": "Mutual = policyholders.",
+    "kind": "Practice"
+  },
+  {
+    "id": "29",
+    "topic": "Insurers",
+    "question": "Who manages a reciprocal insurance exchange?",
+    "options": [
+      "Commissioner",
+      "Shareholders",
+      "Producer",
+      "Attorney-in-fact"
+    ],
+    "correct": 3,
+    "explanations": [
+      "Regulates insurers.",
+      "Own stock insurers.",
+      "Sells insurance.",
+      "Authorized representative manages exchange."
+    ],
+    "memory": "Subscribers participate; attorney-in-fact manages.",
+    "kind": "Practice"
+  },
+  {
+    "id": "30",
+    "topic": "Insurers",
+    "question": "Participants in a reciprocal exchange are called:",
+    "options": [
+      "Shareholders",
+      "Subscribers",
+      "Attorneys-in-fact",
+      "Producers"
+    ],
+    "correct": 1,
+    "explanations": [
+      "Own shares.",
+      "Exchange insurance obligations.",
+      "Manage the exchange.",
+      "Sell insurance."
+    ],
+    "memory": "Subscribers participate.",
+    "kind": "Practice"
+  },
+  {
+    "id": "31",
+    "topic": "Insurers",
+    "question": "A nonprofit society uses local lodges to offer insurance benefits. What is it?",
+    "options": [
+      "Reciprocal",
+      "Stock",
+      "Fraternal",
+      "Mutual"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Reciprocals use an exchange.",
+      "Stock insurers have shareholders.",
+      "Lodges identify fraternals.",
+      "Mutuals are policyholder-owned."
+    ],
+    "memory": "Lodge = fraternal.",
+    "kind": "Practice"
+  },
+  {
+    "id": "32",
+    "topic": "Insurers",
+    "question": "All statements are true EXCEPT:",
+    "options": [
+      "Stock insurers are shareholder-owned.",
+      "Mutual insurers are investor-owned.",
+      "Reciprocals use an attorney-in-fact.",
+      "Fraternals use lodges."
+    ],
+    "correct": 1,
+    "explanations": [
+      "True: stock ownership.",
+      "False: mutuals are policyholder-owned.",
+      "True: reciprocal management.",
+      "True: fraternal structure."
+    ],
+    "memory": "EXCEPT = find the false statement.",
+    "kind": "Practice"
+  },
+  {
+    "id": "33",
+    "topic": "Insurers",
+    "question": "A policy allows dividends when declared. What is it?",
+    "options": [
+      "Nonparticipating",
+      "Indemnity",
+      "Participating",
+      "Nonrenewable"
+    ],
+    "correct": 2,
+    "explanations": [
+      "No policy dividend eligibility.",
+      "Compensates losses.",
+      "Eligible for declared dividends.",
+      "Concerns renewal."
+    ],
+    "memory": "Participating dividends are not guaranteed.",
+    "kind": "Practice"
+  },
+  {
+    "id": "34",
+    "topic": "Insurable risk",
+    "question": "All are characteristics of ideally insurable risk EXCEPT:",
+    "options": [
+      "Accidental loss",
+      "Intentional loss caused by insured",
+      "Measurable loss",
+      "Calculable probability"
+    ],
+    "correct": 1,
+    "explanations": [
+      "True: fortuitous loss.",
+      "False: deliberate insured-caused loss is not ideal.",
+      "True: financial damage measurable.",
+      "True: probability estimable."
+    ],
+    "memory": "EXCEPT = false; accidental not intentional.",
+    "kind": "Practice"
+  },
+  {
+    "id": "35",
+    "topic": "Indemnity",
+    "question": "All describe indemnity EXCEPT:",
+    "options": [
+      "Restoring financial position",
+      "Allowing profit from loss",
+      "Compensating financial damage",
+      "Making whole"
+    ],
+    "correct": 1,
+    "explanations": [
+      "True: restoration.",
+      "False: not profit.",
+      "True: compensation.",
+      "True: making whole."
+    ],
+    "memory": "Indemnity restores, not enriches.",
+    "kind": "Practice"
+  },
+  {
+    "id": "36",
+    "topic": "Pure vs speculative",
+    "question": "Which is speculative risk?",
+    "options": [
+      "Truck theft",
+      "Investing in a business",
+      "Warehouse fire",
+      "Accidental injury"
+    ],
+    "correct": 1,
+    "explanations": [
+      "Loss or no loss.",
+      "Gain or loss is possible.",
+      "Loss or no loss.",
+      "Loss or no loss."
+    ],
+    "memory": "Gain possible = speculative.",
+    "kind": "Practice"
+  },
+  {
+    "id": "37",
+    "topic": "Risk management",
+    "question": "A trucking company installs collision avoidance systems. What method is used?",
+    "options": [
+      "Transfer",
+      "Retention",
+      "Reduction",
+      "Avoidance"
+    ],
+    "correct": 2,
+    "explanations": [
+      "No financial transfer.",
+      "No assumption of costs described.",
+      "Safety equipment reduces likelihood or severity.",
+      "Activity continues, so exposure is not eliminated."
+    ],
+    "memory": "Reduction makes activity safer.",
+    "kind": "Practice"
+  },
+  {
+    "id": "38",
+    "topic": "Risk management",
+    "question": "A $10,000 deductible represents which method?",
+    "options": [
+      "Avoidance",
+      "Transfer",
+      "Reduction",
+      "Retention"
+    ],
+    "correct": 3,
+    "explanations": [
+      "Exposure remains.",
+      "Insurer assumes other covered amounts.",
+      "Does not directly reduce accident probability.",
+      "Insured retains this portion."
+    ],
+    "memory": "Deductible = retention.",
+    "kind": "Practice"
+  },
+  {
+    "id": "39",
+    "topic": "Risk management",
+    "question": "An insurer transfers part of its risk to another insurer. What is this?",
+    "options": [
+      "Indemnification",
+      "Reinsurance",
+      "Retention",
+      "Subrogation"
+    ],
+    "correct": 1,
+    "explanations": [
+      "Compensation for loss.",
+      "Insurance for insurers.",
+      "Keeping risk.",
+      "Recovery from responsible third party."
+    ],
+    "memory": "Reinsurance = insurer-to-insurer transfer.",
+    "kind": "Practice"
+  },
+  {
+    "id": "40",
+    "topic": "Risk",
+    "question": "Defective brakes increasing collision probability represent:",
+    "options": [
+      "Peril",
+      "Physical hazard",
+      "Speculative risk",
+      "Direct loss"
+    ],
+    "correct": 1,
+    "explanations": [
+      "Collision is the peril.",
+      "Physical condition increases likelihood.",
+      "No profit opportunity.",
+      "Damage is the direct loss."
+    ],
+    "memory": "Hazard increases; peril causes.",
+    "kind": "Practice"
+  },
+  {
+    "id": "41",
+    "topic": "Risk",
+    "question": "A driver deliberately submits a fraudulent claim. What hazard?",
+    "options": [
+      "Physical",
+      "Morale",
+      "Moral",
+      "Speculative"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Not a physical condition.",
+      "Morale is carelessness.",
+      "Moral is dishonesty.",
+      "Not investment risk."
+    ],
+    "memory": "Moral = dishonesty; morale = carelessness.",
+    "kind": "Practice"
+  },
+  {
+    "id": "42",
+    "topic": "Large numbers",
+    "question": "All are benefits of the Law of Large Numbers EXCEPT:",
+    "options": [
+      "Reliable loss estimates",
+      "Better premium calculations",
+      "Eliminating insurance losses",
+      "Predictable average loss experience"
+    ],
+    "correct": 2,
+    "explanations": [
+      "True: improves estimates.",
+      "True: supports pricing.",
+      "False: losses still occur.",
+      "True: averages stabilize."
+    ],
+    "memory": "Predicts losses, does not eliminate them.",
+    "kind": "Practice"
+  },
+  {
+    "id": "43",
+    "topic": "Indemnity",
+    "question": "Equipment costs $20,000 to replace and has $8,000 depreciation. ACV coverage, no deductible. Payment?",
+    "options": [
+      "$20,000",
+      "$8,000",
+      "$28,000",
+      "$12,000"
+    ],
+    "correct": 3,
+    "explanations": [
+      "Replacement cost without depreciation.",
+      "Depreciation alone.",
+      "Incorrectly adds depreciation.",
+      "Replacement cost minus depreciation."
+    ],
+    "memory": "ACV = replacement cost minus depreciation (common exam formula).",
+    "kind": "Practice"
+  },
+  {
+    "id": "44",
+    "topic": "Risk",
+    "question": "A warehouse has defective wiring; fire destroys merchandise. Identify hazard and peril.",
+    "options": [
+      "Fire; wiring",
+      "Loss; wiring",
+      "Wiring; fire",
+      "Fire; loss"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Reversed.",
+      "Loss is the result.",
+      "Wiring increases chance; fire causes damage.",
+      "Loss is not peril."
+    ],
+    "memory": "Hazard increases; peril causes.",
+    "kind": "Practice"
+  },
+  {
+    "id": "45",
+    "topic": "Risk management",
+    "question": "A business installs sprinklers and buys property insurance. Identify the methods.",
+    "options": [
+      "Both transfer",
+      "Both avoidance",
+      "Reduction; transfer",
+      "Transfer; reduction"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Sprinklers reduce severity.",
+      "Exposure remains.",
+      "Sprinklers reduce; insurance transfers.",
+      "Reversed."
+    ],
+    "memory": "Safety = reduction; insurance = transfer.",
+    "kind": "Practice"
+  },
+  {
+    "id": "46",
+    "topic": "Regulation",
+    "question": "What makes an NAIC model rule legally enforceable in Washington?",
+    "options": [
+      "NAIC vote",
+      "State adoption through legal process",
+      "All states adopt simultaneously",
+      "NAIC enforcement order"
+    ],
+    "correct": 1,
+    "explanations": [
+      "Vote alone is insufficient.",
+      "State adoption makes it enforceable.",
+      "Other states need not adopt.",
+      "NAIC does not independently enforce state laws."
+    ],
+    "memory": "Model rules require state adoption.",
+    "kind": "Practice"
+  }
+]
