@@ -111,7 +111,7 @@ async function cloudLogin(){
  cloudSet('Signing in...');
  try{let c=await cloudGetClient();let {data,error}=await c.auth.signInWithPassword({email,password});password='';if(error)throw error;
  let verified=await c.auth.getUser();if(verified.error||!verified.data.user||verified.data.user.id!==data.user?.id)throw Error('Could not verify account');
- await cloudActivate(verified.data.user);cloudPage();
+ await cloudActivate(verified.data.user);await loadSharedBank();cloudPage();
  }catch(e){cloudSet(e.message||'Sign-in failed');return}finally{password='';cloudBusy=false}
  await cloudSyncClick();
  if(cloudUser&&hasGuestData(readLocal(guestKey)))await cloudMigrate();
@@ -135,11 +135,11 @@ async function cloudSyncClick(refresh=true){
  let remoteQ=(await cloudRead('questions','id,kind,topic,question,options,correct,explanations,memory,example','id')).map(qData);
  let remoteA=(await cloudRead('attempts','id,question_id,selected,is_correct,answered_at','id')).map(h=>({id:h.question_id,selected:h.selected,ok:h.is_correct,time:Date.parse(h.answered_at),attemptId:h.id}));
  let remoteR=await cloudRead('review_schedule','question_id,stage,next_review','question_id');
- let questions=mergeQuestions(db.questions,remoteQ),history=mergeHistory(await normalizeHistory(db.history),await normalizeHistory(remoteA));
+ let history=mergeHistory(await normalizeHistory(db.history),await normalizeHistory(remoteA));let questions=mergeQuestions(db.questions,remoteQ);
  // No remote writes until identity, IDs and merged history have been checked.
  let qIds=new Set(questions.map(q=>q.id));if(history.some(h=>!qIds.has(h.id)))throw Error('A historical answer refers to a missing question. Restore its question first.');
  if(key!==accountKey||cloudUser.id!==uid)throw Error('Account changed');
- db.questions=questions;db.history=mergeHistory(await normalizeHistory(db.history),history);
+ let currentLocalHistory=await normalizeHistory(db.history);db.questions=mergeQuestions(db.questions,questions);db.history=mergeHistory(currentLocalHistory,history);
  let reviews={...Object.fromEntries(remoteR.map(x=>[x.question_id,{stage:x.stage,due:Date.parse(x.next_review)}])),...db.review};
  db.review=rebuildReview(db.history,reviews);persistCloudLocal();
  let rq=new Set(remoteQ.map(q=>q.id)),ra=new Set(remoteA.map(h=>h.attemptId));
