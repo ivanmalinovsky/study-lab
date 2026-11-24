@@ -398,5 +398,131 @@
     ],
     "memory": "Model rules require state adoption.",
     "kind": "Practice"
+  },
+  {
+    "id": "47",
+    "topic": "Risk management",
+    "question": "A company buys property insurance but makes no changes to the building. What has changed?",
+    "options": [
+      "The likelihood of a fire",
+      "Its retained financial exposure to covered losses",
+      "The physical condition of the building",
+      "The existence of the fire exposure"
+    ],
+    "correct": 1,
+    "explanations": [
+      "Buying a policy does not itself prevent a fire.",
+      "The insurer assumes specified financial consequences in exchange for a premium.",
+      "Insurance is a contract, not a physical improvement.",
+      "The building remains exposed to fire."
+    ],
+    "memory": "Insurance transfers financial risk; safety measures reduce physical risk.",
+    "example": "A warehouse remains exposed to fire, but covered repair costs may be paid by the insurer.",
+    "kind": "Practice"
+  },
+  {
+    "id": "48",
+    "topic": "Indemnity",
+    "question": "Which payment best illustrates the principle of indemnity under ordinary actual cash value coverage?",
+    "options": [
+      "A payment equal to the covered financial loss, subject to the policy",
+      "A payment designed to reward the insured for the accident",
+      "Two full payments for the same property loss",
+      "A payment unrelated to the amount of covered damage"
+    ],
+    "correct": 0,
+    "explanations": [
+      "Indemnity aims to restore the pre-loss financial position, subject to coverage terms.",
+      "The purpose is compensation rather than profit.",
+      "Double recovery for the same loss generally conflicts with indemnity.",
+      "A payment unrelated to actual damage is not the clearest example of indemnity."
+    ],
+    "memory": "Indemnity = financial restoration, not enrichment.",
+    "example": "A truck suffers $12,000 in covered damage. With sufficient limits and no deductible, the insurer pays $12,000.",
+    "kind": "Practice"
+  },
+  {
+    "id": "49",
+    "topic": "Risk",
+    "question": "A building owner is unsure whether a lightning strike will damage the building next year. What does that uncertainty represent?",
+    "options": [
+      "Hazard",
+      "Peril",
+      "Risk",
+      "Indemnification"
+    ],
+    "correct": 2,
+    "explanations": [
+      "A hazard is a condition that increases frequency or severity of loss.",
+      "Lightning is the peril, not the uncertainty that it will occur.",
+      "Risk is the chance or uncertainty of loss.",
+      "Indemnification is compensation for covered loss."
+    ],
+    "memory": "Risk = chance; peril = cause; hazard = increases the chance.",
+    "example": "Defective wiring is a hazard, fire is a peril, and uncertainty about fire damage is risk.",
+    "kind": "Practice"
+  },
+  {
+    "id": "50",
+    "topic": "Risk management",
+    "question": "An insurer writes most of its property policies in a single flood-prone valley. Which action directly reduces geographic concentration?",
+    "options": [
+      "Increase premiums in the valley",
+      "Issue all new policies in the same valley",
+      "Reduce all policy limits by the same percentage",
+      "Spread new exposures across independent regions"
+    ],
+    "correct": 3,
+    "explanations": [
+      "Higher premiums do not change where exposures are located.",
+      "Adding more exposures in one valley can increase concentration.",
+      "Lower limits may reduce dollar exposure but do not diversify the geographic distribution.",
+      "Geographic diversification makes a single localized event less likely to affect the entire portfolio."
+    ],
+    "memory": "Diversification = spread exposures, not just charge more.",
+    "example": "Insuring buildings across several regions can limit the impact of one local flood.",
+    "kind": "Practice"
+  },
+  {
+    "id": "51",
+    "topic": "Large numbers",
+    "question": "Why does an insurer study the claims of many similar, independent vehicles when setting rates?",
+    "options": [
+      "To guarantee that no claims occur",
+      "To predict exactly which driver will crash",
+      "To estimate average future loss experience more reliably",
+      "To limit each insurer's market share"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Large samples do not prevent losses.",
+      "Individual outcomes remain uncertain.",
+      "The law of large numbers makes observed averages more reliable as exposure count grows.",
+      "The law of large numbers is statistical, not a market-share restriction."
+    ],
+    "memory": "More similar, independent exposures = more reliable average loss estimates.",
+    "example": "An insurer uses thousands of comparable truck-years of experience to estimate average claim costs.",
+    "kind": "Practice"
+  },
+  {
+    "id": "52",
+    "topic": "Pure vs speculative",
+    "question": "Which activity creates a possibility of financial gain as well as loss?",
+    "options": [
+      "Owning property exposed to wind damage",
+      "Operating a warehouse exposed to fire",
+      "Purchasing shares as an investment",
+      "Facing the possibility of accidental injury"
+    ],
+    "correct": 2,
+    "explanations": [
+      "Wind damage is a pure risk: loss or no loss.",
+      "Fire exposure is pure risk.",
+      "Investing can produce gain, loss, or no change, making it speculative risk.",
+      "Accidental injury exposure is pure risk."
+    ],
+    "memory": "Pure = loss or no loss; speculative = gain is possible.",
+    "example": "A stock investment may appreciate or decline; a fire exposure offers no inherent opportunity for profit.",
+    "kind": "Practice"
   }
 ]
